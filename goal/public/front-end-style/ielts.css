@@ -1,0 +1,40 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+html, body, .main{width:100%; height:100%;}
+
+.pte_s_three{margin-top:-295px;}
+.pte_s_three> div:nth-child(1){margin-top:295px; padding-bottom:32px;}
+.pte_s_three> div:nth-child(1) p{padding-bottom:32px;}
+
+.pte_s_three_ielts{margin-top:85px; margin-bottom:85px;}
+.pte_s_three_ielts .holder{width:500px; margin-top:85px;}
+
+.pte_s_three .one h2{max-width:100%;}
+
+.pte_six_main {padding-top:32px !important;}
+.ielts_pte_six_main{display:flex; justify-content:space-between; align-items:center;}
+.ielts_pte_six_main> .left{display:flex; flex-direction:column;}
+
+.ielts_pte_six_main .left> button{border:0; position:relative; outline:none; margin:5px 0px; background:none; color:#fff; border:1px solid red; font-size:20px; padding:20px 65px; border-radius:18px; transition:0.4s ease; background:url('../img/pte_vc_btn.png') no-repeat; background-position:center; background-size:cover;}
+.ielts_pte_six_main .left> button:hover, .pte_s_six .pte_six_main .left>button.pte_s_six_pte_six_main_left_btn_active{border-top:1px solid red; border-left:1px solid red; border-bottom:8px solid red; border-right:8px solid red; background:url('../img/pte_vc_btn_hover.png') no-repeat; background-size:cover; background-position:center;}
+.ielts_pte_six_main .left> button:nth-child(1)::before, .pte_s_six .pte_six_main .left> button:nth-child(3)::before{content:''; background:url('../img/pte_btn_shadow.png') no-repeat; background-position:center; background-size:cover; position:absolute; top:28px; left:50%; transform:translateX(-50%); width:150px; height:150px; z-index:1;}
+.ielts_pte_six_main .left> button:nth-child(3)::before{top:unset !important; bottom:2px !important;}
+
+/* ielts_test_main */
+.ielts_test_main{padding-top:105px; padding-bottom:105px;}
+.ielts_test_main .holder_info{max-width:600px; height:auto; padding-right:55px; margin:auto; display:flex;}
+.ielts_test_main .holder_info> .left{width:155px; height:auto; margin-top:5px; margin-right:12px;}
+.ielts_test_main .holder_info> .left> img{width:100%; height:auto;}
+.ielts_test_main .holder_info .holder_bx{display:flex; align-items:center;}
+.ielts_test_main .holder_info .holder_bx h2{font-size:12px; text-transform:uppercase; margin-right:8px; padding:12px; border-radius:10px; border:1px solid #dfdfdf;}
+.ielts_test_main_bg{padding:205px 0px;}
+.ielts_test_main> div> div> div{display:flex; align-items:center; justify-content:center;}
+
+.ielts_test_main .holder_info_right{margin:auto;}
+
+/* ielts_test_head */
+/* .ielts_test_head{border:1px solid red;} */
+.ielts_test_head h2{font-size:85px; text-align:center; margin-top:85px;}
+.ielts_test_head p{text-align:center; max-width:1000px; margin:auto; margin-top:22px; margin-bottom:22px;}
+.ielts_test_head .center{max-width:500px; margin:auto; display:flex; align-items:center; justify-content:center;}
+.ielts_test_head .center> div:nth-child(1), .ielts_test_head .center> div:nth-child(3){width:6px; height:6px; border-radius:50%; background-color:#000;}
+.ielts_test_head .center> div:nth-child(2){width:100%; height:1px; background-color:#000;}
